@@ -3,7 +3,7 @@
 ## Initial Setting Up
 ### The script first checks for an exisiting instance of UCI HAR Dataset.zip in the working directory, and if unavailable the file is downloaded from URL
 ### The dataset is unzipped
-### Loading required packages : dplyr,stringr,reshape
+### Loading required packages : reshape
 
 ## 1. Read and Merge train and test data sets to data_set
  
