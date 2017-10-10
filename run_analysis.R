@@ -60,5 +60,5 @@ colnames(data_set) <- c("Subject","Activity",featurenames)
 
 summary_dataset <- melt(data_set, id = c("Subject","Activity"))
 tidy_data <- cast(summary_dataset,Subject+Activity~variable,mean)
-write.csv(tidy_data,"UCI HAR Dataset/tidy_data.csv")
+write.table(tidy_data,"UCI HAR Dataset/tidy_data.txt",row.names=FALSE)
 
