@@ -12,9 +12,9 @@
 #### tidy_data :Contains independent tidy data set with the average of each variable for each activity and each subject.
 
 
-## Following files are included :
-### README.md
-### run_analyis.R : R Script for getting and cleaning data
-### CodeBook.md : File describing all the variables and steps involved in run_analysis.R
+### Following files are included :
+#### README.md
+#### run_analyis.R : R Script for getting and cleaning data
+#### CodeBook.md : File describing all the variables and steps involved in run_analysis.R
 
-####Notes:
+#### Notes:
