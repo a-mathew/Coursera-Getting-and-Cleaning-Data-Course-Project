@@ -3,7 +3,7 @@
 ### The goal is to prepare tidy data that can be used for later analysis.
 
 ### Dataset Used : UCI HAR Dataset.zip
-### Source URL : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+#### Source URL : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 #### Dataset Abstract: Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 #### Contents of Dataset : 	Test and Train datasets, README.txt, Inertial Signals,activity_labels,features and features.info
 
@@ -13,8 +13,8 @@
 
 
 ### Following files are included :
-#### README.md
-#### run_analyis.R : R Script for getting and cleaning data
-#### CodeBook.md : File describing all the variables and steps involved in run_analysis.R
+#### 1. README.md
+#### 2. run_analyis.R : R Script for getting and cleaning data
+#### 3. CodeBook.md : File describing all the variables and steps involved in run_analysis.R
 
 #### Notes:
