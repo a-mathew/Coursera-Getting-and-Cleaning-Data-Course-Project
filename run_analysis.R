@@ -11,8 +11,6 @@ download.file(file_URL,destfile="UCI HAR Dataset.zip",method="auto")
 unzip("UCI HAR Dataset.zip")
 ###Loading required packages
 library(reshape)
-library(dplyr)
-library(stringr)
 
 ## 1. Merge the training and the test sets to create one data set.
 
