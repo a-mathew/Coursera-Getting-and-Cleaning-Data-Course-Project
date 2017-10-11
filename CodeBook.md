@@ -3,7 +3,7 @@
 ## Initial Setting Up
 ### The script first checks for an exisiting instance of UCI HAR Dataset.zip in the working directory, and if unavailable the file is downloaded from URL
 ### The dataset is unzipped
-### Loading required packages : reshape
+### Loading required packages : reshape, stringr
 
 ## 1. Read and Merge train and test data sets to data_set
  
@@ -34,7 +34,9 @@
 ## 4. Assign Features Name to Measurement Variable Columns
 
   ### featurenames : Names of Measurement Variables
+  ### Checks for typing errors in featurenames, rectfies and updates featurenames
   ### data_set : Updated version of data_set with Measurement Variable Columns given descriptive names using featurenames
+  
 
 ## 5. Create Tidy Data Set with Average values for each Activity and each Subject
 
