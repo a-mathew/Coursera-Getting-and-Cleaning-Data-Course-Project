@@ -11,7 +11,7 @@ download.file(file_URL,destfile="UCI HAR Dataset.zip",method="auto")
 unzip("UCI HAR Dataset.zip")
 ###Loading required packages
 library(reshape)
-
+library(stringr)
 ## 1. Merge the training and the test sets to create one data set.
 
 ###Test Dataset
@@ -54,6 +54,9 @@ data_set[,2] <- factor(data_set[,2],levels = activityLabels[,1],labels = activit
 ## 4. Appropriately labels the data set with descriptive variable names. 
 featurenames <- as.character(features[index,2])
 colnames(data_set) <- c("Subject","Activity",featurenames)
+### Replacing repetation of word 'Body' in featurenames
+featurenames <- str_replace_all(featurenames,"BodyBody","Body")
+
 
 ## 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 ###tidy_data is created and written to file 'tidy_data.csv'
