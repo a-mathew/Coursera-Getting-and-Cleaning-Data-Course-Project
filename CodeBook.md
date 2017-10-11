@@ -40,6 +40,6 @@
 
    ### summary_dataset : Melted data_set with Subject and Activity as ID
    ### tidy_data : Casted Data Set with mean of measurements w.r.t Subject and Activity
-  ### The tidy_data dataset is written into tidy_data.csv for future evaluvation
+  ### The tidy_data dataset is written into tidy_data.txt for future evaluvation
 
    
